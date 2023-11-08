@@ -393,6 +393,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/4_pop_P_RTP.bin \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/5_heavyClick_P_RTP.bin \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
+    vendor/xiaomi/pissarro/proprietary/vendor/firmware/RCV-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/RCV-cs35l41-dsp1-spk-cali.bin \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/RCV-cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/WIFI_RAM_CODE_soc5_0_1_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc5_0_1_1.bin \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
@@ -402,6 +403,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/cs35l41-delta-rcv-music.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-delta-rcv-music.txt \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/cs35l41-delta-spk-handsfree.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-delta-spk-handsfree.txt \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/cs35l41-delta-spk-music.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-delta-spk-music.txt \
+    vendor/xiaomi/pissarro/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.bin \
+    vendor/xiaomi/pissarro/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.wmfw \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
     vendor/xiaomi/pissarro/proprietary/vendor/firmware/goodix_gt9896_cfg_k16.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9896_cfg_k16.bin \
