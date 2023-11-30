@@ -33,14 +33,7 @@
     <EccEntry Ecc="103" Category="0" Condition="3" Plmn="257 01"/>
     <EccEntry Ecc="104" Category="0" Condition="3" Plmn="257 01"/>
     <!-- K19A code for HQ-157176 by yefeng at 20211008 end -->
-    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="257 04"/>
-    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="257 04"/>
-    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="257 04"/>
-    <EccEntry Ecc="104" Category="0" Condition="2" Plmn="257 04"/>
-    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="257 02"/>
-    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="257 02"/>
-    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="257 02"/>
-    <EccEntry Ecc="104" Category="0" Condition="2" Plmn="257 02"/>
+    
     <!-- Add for Vodafone/Ireland operators -->
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="272 01"/>
 
@@ -384,6 +377,7 @@
 
     <!-- Add for Avantel/Colombia operator -->
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 130"/>
+    <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 123"/>
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 360"/>
 
     <!-- xiaomi add being -->
