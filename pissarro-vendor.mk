@@ -435,7 +435,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalacdec_mtk.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
@@ -514,11 +513,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libaiselector.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libdpframework.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libmtk_drvb.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/mt6877/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libnir_neon_driver.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib/mt6877/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libpq_prot.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiselector.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswvqe.so \
@@ -1677,14 +1676,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/libxmi_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmi_high_dynamic_range.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libaiselector.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libdpframework.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmtk_drvb.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_platform.vpu.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libneuron_runtime.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_runtime.5.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_runtime.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libnir_neon_driver.so \
-    vendor/xiaomi/pissarro/proprietary/vendor/lib64/mt6877/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libpq_prot.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiselector.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.vpu.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libneuron_runtime.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.5.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver.so \
+    vendor/xiaomi/pissarro/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/s5k4h7_aac_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4h7_aac_mipi_raw_IdxMgr.so \
     vendor/xiaomi/pissarro/proprietary/vendor/lib64/s5k4h7_aac_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4h7_aac_mipi_raw_india_IdxMgr.so \

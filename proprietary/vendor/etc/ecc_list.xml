@@ -311,6 +311,9 @@
     <!-- Support dial 999 under G+N/A case because CT network don't support
          dial 999 without no CT SIM
     -->
+    <EccEntry Ecc="000" Category="0" Condition="1" Plmn="460 FFF"/>
+    <EccEntry Ecc="08" Category="0" Condition="1" Plmn="460 FFF"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="460 FFF"/>
     <EccEntry Ecc="999" Category="0" Condition="2" Plmn="460 FFF"/>
 
     <!-- Add for Taiwan FET operator (466 01) -->
